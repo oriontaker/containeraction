@@ -1,0 +1,14 @@
+name: 'my first container action'
+description: 'Armando Ramirez'
+author: 'Armando Ramirez'
+inputs:
+  myInput:
+    description: 'greeting to use'
+    required: true
+    default: 'Awesome oriontaker'
+  outputs:
+    myOuput:
+      description: 'total memory'
+  runs:
+    using: 'docker'
+    image: 'Dockerfile'
