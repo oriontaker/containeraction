@@ -1,14 +1,14 @@
 name: 'my first container action'
-description: 'Armando Ramirez'
+description: 'A cloud guru'
 author: 'Armando Ramirez'
 inputs:
   myInput:
     description: 'greeting to use'
     required: true
-    default: 'Awesome oriontaker'
-  outputs:
-    myOuput:
-      description: 'total memory'
-  runs:
-    using: 'docker'
-    image: 'Dockerfile'
+    default: 'Awesome Guru'
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
